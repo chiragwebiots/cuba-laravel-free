@@ -2319,7 +2319,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div><a href="{{ route('admin.file_manager') }}">
+                                                    <div><a href="">
                                                             <div class="d-flex"> <svg>
                                                                     <use
                                                                         href="{{ asset('assets/svg/icon-sprite.svg#doc-file') }}">
@@ -2340,7 +2340,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div><a href="{{ route('admin.file_manager') }}">
+                                                    <div><a href="">
                                                             <div class="d-flex"> <svg>
                                                                     <use
                                                                         href="{{ asset('assets/svg/icon-sprite.svg#ai-file') }}">
@@ -2361,7 +2361,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div><a href="{{ route('admin.file_manager') }}">
+                                                    <div><a href="">
                                                             <div class="d-flex"> <svg>
                                                                     <use
                                                                         href="{{ asset('assets/svg/icon-sprite.svg#sql-file') }}">
@@ -2382,7 +2382,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div><a href="{{ route('admin.file_manager') }}">
+                                                    <div><a href="">
                                                             <div class="d-flex"> <svg>
                                                                     <use
                                                                         href="{{ asset('assets/svg/icon-sprite.svg#pdf-file') }}">
@@ -2403,7 +2403,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div><a href="{{ route('admin.file_manager') }}">
+                                                    <div><a href="">
                                                             <div class="d-flex"> <svg>
                                                                     <use
                                                                         href="{{ asset('assets/svg/icon-sprite.svg#xml-file') }}">
@@ -2424,7 +2424,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div><a href="{{ route('admin.file_manager') }}">
+                                                    <div><a href="">
                                                             <div class="d-flex"> <svg>
                                                                     <use
                                                                         href="{{ asset('assets/svg/icon-sprite.svg#css-file') }}">

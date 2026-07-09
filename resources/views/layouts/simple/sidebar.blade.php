@@ -84,7 +84,7 @@
                             @endcan
                         </ul>
                     </li>
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title"
+                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title"
                             href="javascript:void(0)"><svg class="stroke-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-widget') }}"></use>
                             </svg><svg class="fill-icon">
@@ -94,8 +94,8 @@
                             <li><a href="{{ route('admin.general_widget') }}">General</a></li>
                             <li><a href="{{ route('admin.chart_widget') }}">Chart</a></li>
                         </ul>
-                    </li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title"
+                    </li>
+                     <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title"
                             href="javascript:void(0)"><svg class="stroke-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-layout') }}"></use>
                             </svg><svg class="fill-icon">
@@ -110,7 +110,7 @@
                             <li><a href="{{ route('admin.footer_dark') }}">Footer Dark</a></li>
                             <li><a href="{{ route('admin.footer_fixed') }}">Footer Fixed</a></li>
                         </ul>
-                    </li>  -->
+                    </li> 
                     <li class="sidebar-main-title">
                         <div>
                             <h6 class="lan-8">Applications</h6>
@@ -129,13 +129,14 @@
                             <li><a href="{{ route('admin.create_project') }}">Create new</a></li>
                         </ul>
                     </li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="{{ route('admin.file_manager') }}"><svg
+                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
+                            class="sidebar-link sidebar-title link-nav" href=""><svg
                                 class="stroke-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-file') }}"></use>
                             </svg><svg class="fill-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#fill-file') }}"></use>
-                            </svg><span>File manager</span></a></li>
+                            </svg><span>File manager</span></a></li>  -->
+
                     <li class="sidebar-list"><i class="fa-solid fa-thumbtack"> </i><a
                             class="sidebar-link sidebar-title link-nav" href="{{ route('admin.kanban') }}"><svg class="stroke-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-board') }}"></use>
@@ -375,25 +376,25 @@
                         <ul class="sidebar-submenu">
                             <li><a href="{{ route('admin.typography') }}">Typography</a></li>
                             <li><a href="{{ route('admin.avatars') }}">Avatars</a></li>
-                            <li><label class="badge badge-light-success">New</label><a href="{{ route('admin.divider') }}">Divider</a>
-                            </li>
-                            <li><a href="{{ route('admin.helper_classes') }}">helper classes</a></li>
+                            <!-- <li><label class="badge badge-light-success">New</label><a href="">Divider</a>
+                            </li> -->
+                            <!-- <li><a href="">helper classes</a></li> -->
                             <li><a href="{{ route('admin.grid') }}">Grid</a></li>
-                            <li><a href="{{ route('admin.tag_pills') }}">Tags & pills</a></li>
-                            <li><a href="{{ route('admin.progress_bar') }}">Progress</a></li>
+                            <!-- <li><a href="">Tags & pills</a></li> -->
+                            <!-- <li><a href="{{ route('admin.progress_bar') }}">Progress</a></li> -->
                             <li><a href="{{ route('admin.modal') }}">Modal</a></li>
                             <li><a href="{{ route('admin.alert') }}">Alert</a></li>
                             <li><a href="{{ route('admin.popover') }}">Popover</a></li>
-                            <li><label class="badge badge-light-success">New</label><a
-                                    href="{{ route('admin.placeholders') }}">Placeholders</a></li>
+                            <!-- <li><label class="badge badge-light-success">New</label><a
+                                    href="{{ route('admin.placeholders') }}">Placeholders</a></li> -->
                             <li><a href="{{ route('admin.tooltip') }}">Tooltip</a></li>
                             <li><a href="{{ route('admin.dropdown') }}">Dropdown</a></li>
                             <li><a href="{{ route('admin.according') }}">Accordion</a></li>
-                            <li><a href="{{ route('admin.tabs') }}">Tabs</a></li>
+                            <!-- <li><a href="{{ route('admin.tabs') }}">Tabs</a></li> -->
                             <li><label class="badge badge-light-success">New</label><a
                                     href="{{ route('admin.offcanvas') }}">Offcanvas</a></li>
-                            <li><label class="badge badge-light-success">New</label><a
-                                    href="{{ route('admin.navigate_links') }}">Navigate Links</a></li>
+                            <!-- <li><label class="badge badge-light-success">New</label><a
+                                    href="{{ route('admin.navigate_links') }}">Navigate Links</a></li> -->
                             <li><a href="{{ route('admin.list') }}">Lists</a></li>
                         </ul>
                     </li>

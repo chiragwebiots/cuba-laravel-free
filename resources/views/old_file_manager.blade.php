@@ -1,4 +1,4 @@
-@extends('layouts.simple.master')
+<!-- @extends('layouts.simple.master')
 
 @section('title', 'File Manager')
 
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-    </div><!-- Container-fluid starts-->
+    </div><!-- Container-fluid starts
     <div class="container-fluid">
         <div class="row main-file-sidebar">
             <div class="col-xl-3 box-col-6 pe-0 xl-4">
@@ -393,23 +393,23 @@
                                     </div>
                                     <h5></h5>
                                 </div>
-                                <div class="toast-messages"><!-- Toast messages will appear here!--></div>
+                                <div class="toast-messages"><!-- Toast messages will appear here!</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div><!-- Container-fluid Ends-->
+    </div>   --><!-- Container-fluid Ends-->
 @endsection
 
 @section('scripts')
-    <script src="{{ asset('assets/js/typeahead/handlebars.js') }}"></script>
+    <!-- <script src="{{ asset('assets/js/typeahead/handlebars.js') }}"></script>
     <script src="{{ asset('assets/js/typeahead/typeahead.bundle.js') }}"></script>
     <script src="{{ asset('assets/js/typeahead/typeahead.custom.js') }}"></script>
     <script src="{{ asset('assets/js/typeahead-search/handlebars.js') }}"></script>
     <script src="{{ asset('assets/js/typeahead-search/typeahead-custom.js') }}"></script>
     <script src="{{ asset('assets/js/blockui/custom-blockui1.js') }}"></script>
     <script src="{{ asset('assets/js/blockui/custom-freeze1.js') }}"></script>
-    <script src="{{ asset('assets/js/custom_filemanager.js') }}"></script>
-@endsection
+    <script src="{{ asset('assets/js/custom_filemanager.js') }}"></script> -->
+@endsection 

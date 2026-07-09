@@ -84,7 +84,7 @@ Route::view('project-list', 'projects.list_project')->name('list_project');
 Route::view('project-create', 'projects.create_project')->name('create_project');
 
  //file manager
- Route::view('file-manager', 'file_manager')->name('file_manager');
+//Route::view('file-manager', 'file_manager')->name('file_manager');
 
  //kanban board
  Route::view('kanban', 'kanban')->name('kanban');
@@ -190,20 +190,20 @@ Route::view('jsgrid-table', 'tables.jsgrid_table')->name('jsgrid_table');
 //ui_kits
 Route::view('typography', 'ui_kits.typography')->name('typography');
 Route::view('avatars', 'ui_kits.avatars')->name('avatars');
-Route::view('divider', 'ui_kits.divider')->name('divider');
-Route::view('helper-classes', 'ui_kits.helper_classes')->name('helper_classes');
+// Route::view('divider', 'ui_kits.divider')->name('divider');
+//Route::view('helper-classes', 'ui_kits.helper_classes')->name('helper_classes');
 Route::view('grid', 'ui_kits.grid')->name('grid');
-Route::view('pills-tag', 'ui_kits.tag_pills')->name('tag_pills');
-Route::view('progress-bar', 'ui_kits.progress_bar')->name('progress_bar');
+// Route::view('pills-tag', 'ui_kits.tag_pills')->name('tag_pills');
+// Route::view('progress-bar', 'ui_kits.progress_bar')->name('progress_bar');
 Route::view('modal', 'ui_kits.modal')->name('modal');
 Route::view('alert', 'ui_kits.alert')->name('alert');
 Route::view('popover', 'ui_kits.popover')->name('popover');
-Route::view('placeholders', 'ui_kits.placeholders')->name('placeholders');
+// Route::view('placeholders', 'ui_kits.placeholders')->name('placeholders');
 Route::view('tooltip', 'ui_kits.tooltip')->name('tooltip');
 Route::view('dropdown', 'ui_kits.dropdown')->name('dropdown');
 Route::view('according', 'ui_kits.according')->name('according');
-Route::view('tabs', 'ui_kits.tabs')->name('tabs');
-Route::view('offcanvas', 'ui_kits.offcanvas')->name('offcanvas');
+// Route::view('tabs', 'ui_kits.tabs')->name('tabs');
+// Route::view('offcanvas', 'ui_kits.offcanvas')->name('offcanvas');
 Route::view('navigate-links', 'ui_kits.navigate_links')->name('navigate_links');
 Route::view('list', 'ui_kits.list')->name('list');
 
