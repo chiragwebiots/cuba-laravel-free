@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/vendors/select.bootstrap5.css') }}">
 @endsection
 
-@section('main_content')
+@section('main_content')  
+   
     <div class="container-fluid">
         <div class="page-title">
             <div class="row">
@@ -37,10 +38,9 @@
                                 <div class="greeting-user">
                                     <h2 class="f-w-600">Welcome {{ \Illuminate\Support\Str::title(auth()->user()->first_name ?? '') }} {{ \Illuminate\Support\Str::title(auth()->user()->last_name ?? '') }}!</h2>
                                     <p>Here whats happing in your account today</p>
-                                    <div class="whatsnew-btn"><a class="btn btn-outline-white" href="{{ route('admin.user_profile') }}"
-                                            target="_blank">View Profile</a></div>
+                                    <div class="whatsnew-btn"><a class="btn btn-outline-white" href="#">View Profile</a></div>
                                 </div>
-                            </div>
+                            </div>  
                             <div>
                                 <div class="clockbox"><svg id="clock" xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 600 600">
@@ -235,7 +235,7 @@
                                                     src="{{ asset('assets/images/dashboard/user/2.jpg') }}"
                                                     alt="user">
                                                 <div class="img-content-box"><a class="f-w-500"
-                                                        href="{{ route('admin.list_products') }}">Jane Cooper</a>
+                                                        href="">Jane Cooper</a>
                                                     <p class="mb-0 f-light">#452140</p>
                                                 </div>
                                             </div>
@@ -250,7 +250,7 @@
                                                     src="{{ asset('assets/images/dashboard/user/3.jpg') }}"
                                                     alt="user">
                                                 <div class="img-content-box"><a class="f-w-500"
-                                                        href="{{ route('admin.list_products') }}">Wade Warren</a>
+                                                        href="">Wade Warren</a>
                                                     <p class="mb-0 f-light">#844967</p>
                                                 </div>
                                             </div>
@@ -265,7 +265,7 @@
                                                     src="{{ asset('assets/images/dashboard/user/4.jpg') }}"
                                                     alt="user">
                                                 <div class="img-content-box"><a class="f-w-500"
-                                                        href="{{ route('admin.list_products') }}">Guy Hawkins</a>
+                                                        href="">Guy Hawkins</a>
                                                     <p class="mb-0 f-light">#321489</p>
                                                 </div>
                                             </div>
@@ -280,7 +280,7 @@
                                                     src="{{ asset('assets/images/dashboard/user/5.jpg') }}"
                                                     alt="user">
                                                 <div class="img-content-box"><a class="f-w-500"
-                                                        href="{{ route('admin.list_products') }}">Jake Spy</a>
+                                                        href="#">Jake Spy</a>
                                                     <p class="mb-0 f-light">#954687</p>
                                                 </div>
                                             </div>
@@ -295,7 +295,7 @@
                                                     src="{{ asset('assets/images/dashboard-9/user/1.png') }}"
                                                     alt="user">
                                                 <div class="img-content-box"><a class="f-w-500"
-                                                        href="{{ route('admin.list_products') }}">Devin Jake</a>
+                                                        href="#">Devin Jake</a>
                                                     <p class="mb-0 f-light">#562778</p>
                                                 </div>
                                             </div>
@@ -310,7 +310,7 @@
                                                     src="{{ asset('assets/images/dashboard-9/user/2.png') }}"
                                                     alt="user">
                                                 <div class="img-content-box"><a class="f-w-500"
-                                                        href="{{ route('admin.list_products') }}">Jacob Jones</a>
+                                                        href="#">Jacob Jones</a>
                                                     <p class="mb-0 f-light">#589356</p>
                                                 </div>
                                             </div>
@@ -325,7 +325,7 @@
                                                     src="{{ asset('assets/images/dashboard-9/user/5.png') }}"
                                                     alt="user">
                                                 <div class="img-content-box"><a class="f-w-500"
-                                                        href="{{ route('admin.list_products') }}">Jams Bone</a>
+                                                        href="#">Jams Bone</a>
                                                     <p class="mb-0 f-light">#589657</p>
                                                 </div>
                                             </div>
@@ -340,7 +340,7 @@
                                                     src="{{ asset('assets/images/dashboard-9/user/3.png') }}"
                                                     alt="user">
                                                 <div class="img-content-box"><a class="f-w-500"
-                                                        href="{{ route('admin.list_products') }}">Mili Pais</a>
+                                                        href="#">Mili Pais</a>
                                                     <p class="mb-0 f-light">#589654</p>
                                                 </div>
                                             </div>
@@ -554,8 +554,8 @@
                                                         src="{{ asset('assets/images/dashboard-2/order/sub-product/16.png') }}"
                                                         alt=""></div>
                                                 <div> <a class="f-14 mb-0 f-w-500 c-light"
-                                                        href="{{ route('admin.products_details') }}">Bag</a>
-                                                    <p class="c-o-light" href="{{ route('admin.checkout') }}">#452140 </p>
+                                                        href="#">Bag</a>
+                                                    <p class="c-o-light" href="">#452140 </p>
                                                 </div>
                                             </div>
                                         </td>
@@ -575,8 +575,8 @@
                                                         src="{{ asset('assets/images/dashboard-2/order/sub-product/25.png') }}"
                                                         alt=""></div>
                                                 <div> <a class="f-14 mb-0 f-w-500 c-light"
-                                                        href="{{ route('admin.products_details') }}">Sofa</a>
-                                                    <p class="c-o-light" href="{{ route('admin.checkout') }}">#844967</p>
+                                                        href="">Sofa</a>
+                                                    <p class="c-o-light" href="">#844967</p>
                                                 </div>
                                             </div>
                                         </td>
@@ -595,8 +595,8 @@
                                                         src="{{ asset('assets/images/dashboard-2/order/sub-product/26.png') }}"
                                                         alt=""></div>
                                                 <div> <a class="f-14 mb-0 f-w-500 c-light"
-                                                        href="{{ route('admin.products_details') }}">Lamp</a>
-                                                    <p class="c-o-light" href="{{ route('admin.checkout') }}">#321489</p>
+                                                        href="">Lamp</a>
+                                                    <p class="c-o-light" href="">#321489</p>
                                                 </div>
                                             </div>
                                         </td>
@@ -615,8 +615,8 @@
                                                         src="{{ asset('assets/images/dashboard-2/order/sub-product/24.png') }}"
                                                         alt=""></div>
                                                 <div> <a class="f-14 mb-0 f-w-500 c-light"
-                                                        href="{{ route('admin.products_details') }}">Watch</a>
-                                                    <p class="c-o-light" href="{{ route('admin.checkout') }}">#954687</p>
+                                                        href="#">Watch</a>
+                                                    <p class="c-o-light" href="">#954687</p>
                                                 </div>
                                             </div>
                                         </td>
@@ -635,8 +635,8 @@
                                                         src="{{ asset('assets/images/dashboard-2/order/sub-product/6.png') }}"
                                                         alt=""></div>
                                                 <div> <a class="f-14 mb-0 f-w-500 c-light"
-                                                        href="{{ route('admin.products_details') }}">Football</a>
-                                                    <p class="c-o-light" href="{{ route('admin.checkout') }}">#896748</p>
+                                                        href="#">Football</a>
+                                                    <p class="c-o-light" href="">#896748</p>
                                                 </div>
                                             </div>
                                         </td>
@@ -655,8 +655,8 @@
                                                         src="{{ asset('assets/images/dashboard-2/order/sub-product/10.png') }}"
                                                         alt=""></div>
                                                 <div> <a class="f-14 mb-0 f-w-500 c-light"
-                                                        href="{{ route('admin.products_details') }}">T-shirt</a>
-                                                    <p class="c-o-light" href="{{ route('admin.checkout') }}">#321489</p>
+                                                        href="#">T-shirt</a>
+                                                    <p class="c-o-light" href="">#321489</p>
                                                 </div>
                                             </div>
                                         </td>
@@ -675,8 +675,8 @@
                                                         src="{{ asset('assets/images/dashboard-2/order/sub-product/11.png') }}"
                                                         alt=""></div>
                                                 <div> <a class="f-14 mb-0 f-w-500 c-light"
-                                                        href="{{ route('admin.products_details') }}">Sleeper</a>
-                                                    <p class="c-o-light" href="{{ route('admin.checkout') }}">#452140 </p>
+                                                        href="#">Sleeper</a>
+                                                    <p class="c-o-light" href="">#452140 </p>
                                                 </div>
                                             </div>
                                         </td>
@@ -696,8 +696,8 @@
                                                         src="{{ asset('assets/images/dashboard-2/order/sub-product/14.png') }}"
                                                         alt=""></div>
                                                 <div> <a class="f-14 mb-0 f-w-500 c-light"
-                                                        href="{{ route('admin.products_details') }}">Shoes</a>
-                                                    <p class="c-o-light" href="{{ route('admin.checkout') }}">#844967</p>
+                                                        href="#">Shoes</a>
+                                                    <p class="c-o-light" href="">#844967</p>
                                                 </div>
                                             </div>
                                         </td>

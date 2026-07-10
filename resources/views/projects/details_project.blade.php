@@ -163,7 +163,7 @@
                                     <li> <span>Due Date &colon;</span><svg>
                                             <use href="{{ asset('assets/svg/icon-sprite.svg#vector-calendar') }}"></use>
                                         </svg><span>10 Aug, 2024</span></li>
-                                </ul><a class="btn btn-primary" href="{{ route('admin.create_project') }}" target="_blank"><i
+                                </ul><a class="btn btn-primary" href="#" target="_blank"><i
                                         class="fa-solid fa-plus"></i> Add Project </a>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
                                                             projects</p>
                                                     </div>
                                                     <div class="card-header-right-btn"><a class="c-o-light"
-                                                            href="{{ route('admin.list_products') }}">View All</a></div>
+                                                            href="#">View All</a></div>
                                                 </div>
                                             </div>
                                             <div class="card-body pt-0">
@@ -266,7 +266,7 @@
                                                         <h5>To Do List</h5>
                                                     </div>
                                                     <div class="card-header-right-btn"><a class="c-o-light"
-                                                            href="{{ route('admin.to_do') }}">View All</a></div>
+                                                            href="#">View All</a></div>
                                                 </div>
                                             </div>
                                             <div class="card-body pt-0 project-todo">
@@ -381,7 +381,7 @@
                                                         </p>
                                                     </div>
                                                     <div class="card-header-right-btn"><a class="c-o-light"
-                                                            href="{{ route('admin.list_products') }}">View All</a></div>
+                                                            href="#">View All</a></div>
                                                 </div>
                                             </div>
                                             <div class="card-body px-0 pt-0">
@@ -573,7 +573,7 @@
                                                         <p class="m-0 c-o-light">All 209 Task Completed</p>
                                                     </div>
                                                     <div class="card-header-right-btn"><a class="c-o-light"
-                                                            href="{{ route('admin.task') }}">View All</a></div>
+                                                            href="#">View All</a></div>
                                                 </div>
                                             </div>
                                             <div class="card-body pt-0">
@@ -592,7 +592,7 @@
                                                         <p class="m-0 c-o-light">23, April 2024</p>
                                                     </div>
                                                     <div class="card-header-right-btn"><a class="c-o-light"
-                                                            href="{{ route('admin.task') }}">View All</a></div>
+                                                            href="#">View All</a></div>
                                                 </div>
                                             </div>
                                             <div class="card-body activity-wrapper pt-0">
@@ -946,7 +946,7 @@
                                                         <p class="m-0 c-o-light">Total 205 Members</p>
                                                     </div>
                                                     <div class="card-header-right-btn"><a class="c-o-light"
-                                                            href="{{ route('admin.chat_private') }}">View All</a></div>
+                                                            href="#">View All</a></div>
                                                 </div>
                                             </div>
                                             <div class="card-body invite-member pt-0">
@@ -1064,7 +1064,7 @@
                                                         <p class="m-0 c-o-light">Total 120 Comments</p>
                                                     </div>
                                                     <div class="card-header-right-btn"><a class="c-o-light"
-                                                            href="{{ route('admin.course_details') }}">View All</a></div>
+                                                            href="#">View All</a></div>
                                                 </div>
                                             </div>
                                             <div class="card-body pt-0">
@@ -2704,7 +2704,7 @@
                                                                                 </td>
                                                                                 <td>14 Oct, 2024</td>
                                                                                 <td><a class="btn"
-                                                                                        href="{{ route('admin.list_products') }}">View</a>
+                                                                                        href="#">View</a>
                                                                                 </td>
                                                                             </tr>
                                                                         </tbody>

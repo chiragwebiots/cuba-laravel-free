@@ -161,7 +161,7 @@
                             <li class="nav-item"><a class="nav-link" id="completed-top-tab" data-bs-toggle="tab"
                                     href="#top-completed" role="tab" aria-controls="top-completed"
                                     aria-selected="false"><i class="fa-solid fa-circle-check"></i>Completed</a></li>
-                        </ul><a class="btn btn-primary" href="{{ route('admin.create_project') }}" target="_blank"><i
+                        </ul><a class="btn btn-primary" href="#" target="_blank"><i
                                 class="fa-solid fa-plus"></i> Add Project </a>
                     </div>
                 </div>
