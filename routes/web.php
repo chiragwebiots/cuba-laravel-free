@@ -15,9 +15,10 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-Route::group(['middleware' => ['auth'], 'as' => 'admin.', 'prefix' => 'admin'], function () {
+Route::group(['middleware' => ['auth'], 'as' => 'admin.', 'prefix' => 'admin'], function () 
+{
     // Dashboard
-  //  Route::get('dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+    Route::get('dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
 
     // Users
     Route::put('user/status/{id}', [App\Http\Controllers\Admin\UserController::class, 'status'])->name('user.status');
@@ -52,22 +53,22 @@ Route::group(['middleware' => ['auth'], 'as' => 'admin.', 'prefix' => 'admin'], 
 
 // Dashboard
 Route::view('default-dashboard', 'admin.dashboard.index')->name('default_dashboard');
-Route::view('ecommerce-dashboard', 'dashboards.ecommerce_dashboard')->name('ecommerce_dashboard');
-Route::view('online-course-dashboard', 'dashboards.online_course')->name('online_course_dashboard');
-Route::view('crypto-dashboard', 'dashboards.crypto_dashboard')->name('crypto_dashboard');
-Route::view('social-dashboard', 'dashboards.social_dashboard')->name('social_dashboard');
-Route::view('nft-dashboard', 'dashboards.nft_dashboard')->name('nft_dashboard');
-Route::view('school-management-dashboard', 'dashboards.school_management')->name('school_management_dashboard');
-Route::view('pos-dashboard', 'dashboards.pos_dashboard')->name('pos_dashboard');
-Route::view('crm-dashboard', 'dashboards.crm_dashboard')->name('crm_dashboard');
-Route::view('analytics-dashboard', 'dashboards.analytics_dashboard')->name('analytics_dashboard');
-Route::view('hr-dashboard', 'dashboards.hr_dashboard')->name('hr_dashboard');
-Route::view('projects-dashboard', 'dashboards.projects_dashboard')->name('projects_dashboard');
-Route::view('logistics-dashboard', 'dashboards.logistics_dashboard')->name('logistics_dashboard');
+// Route::view('ecommerce-dashboard', 'dashboards.ecommerce_dashboard')->name('ecommerce_dashboard');
+// Route::view('online-course-dashboard', 'dashboards.online_course')->name('online_course_dashboard');
+// Route::view('crypto-dashboard', 'dashboards.crypto_dashboard')->name('crypto_dashboard');
+// Route::view('social-dashboard', 'dashboards.social_dashboard')->name('social_dashboard');
+// Route::view('nft-dashboard', 'dashboards.nft_dashboard')->name('nft_dashboard');
+// Route::view('school-management-dashboard', 'dashboards.school_management')->name('school_management_dashboard');
+// Route::view('pos-dashboard', 'dashboards.pos_dashboard')->name('pos_dashboard');
+// Route::view('crm-dashboard', 'dashboards.crm_dashboard')->name('crm_dashboard');
+// Route::view('analytics-dashboard', 'dashboards.analytics_dashboard')->name('analytics_dashboard');
+// Route::view('hr-dashboard', 'dashboards.hr_dashboard')->name('hr_dashboard');
+// Route::view('projects-dashboard', 'dashboards.projects_dashboard')->name('projects_dashboard');
+// Route::view('logistics-dashboard', 'dashboards.logistics_dashboard')->name('logistics_dashboard');
 
 //widgets
-// Route::view('general-widget', 'widgets.general_widget')->name('general_widget');
-// Route::view('chart-widget', 'widgets.chart_widget')->name('chart_widget');
+Route::view('general-widget', 'widgets.general_widget')->name('general_widget');
+Route::view('chart-widget', 'widgets.chart_widget')->name('chart_widget');
 
 //page_layout
 Route::view('box-layout', 'page_layouts.box_layout')->name('box_layout');
@@ -79,12 +80,12 @@ Route::view('footer-dark', 'page_layouts.footer_dark')->name('footer_dark');
 // Route::view('footer-fixed', 'page_layouts.footer_fixed')->name('footer_fixed');
 
 //projects
-//  Route::view('project-details', 'projects.details_project')->name('details_project');
+// Route::view('project-details', 'projects.details_project')->name('details_project');
 // Route::view('project-list', 'projects.list_project')->name('list_project');
 // Route::view('project-create', 'projects.create_project')->name('create_project');
 
  //file manager
-//Route::view('file-manager', 'file_manager')->name('file_manager');
+//  Route::view('file-manager', 'file_manager')->name('file_manager');
 
  //kanban board
 //  Route::view('kanban', 'kanban')->name('kanban');
@@ -132,13 +133,13 @@ Route::view('footer-dark', 'page_layouts.footer_dark')->name('footer_dark');
 // Route::view('customer-order', 'reports.customer_order')->name('customer_order');
 
  //bookmark
-// Route::view('bookmark', 'bookmark')->name('bookmark');
+Route::view('bookmark', 'bookmark')->name('bookmark');
 
 //contacts
 // Route::view('contacts', 'contacts')->name('contacts');
 
 //tasks
-// Route::view('task', 'task')->name('task');
+    // Route::view('task', 'task')->name('task');
 
 //calendar
 // Route::view('calendar-basic', 'calendar_basic')->name('calendar_basic');
@@ -208,35 +209,35 @@ Route::view('according', 'ui_kits.according')->name('according');
 Route::view('list', 'ui_kits.list')->name('list');
 
 //bonus_ui
-// Route::view('scrollable', 'bonus_ui.scrollable')->name('scrollable');
-// Route::view('tree', 'bonus_ui.tree')->name('tree');
-// Route::view('toasts', 'bonus_ui.toasts')->name('toasts');
-// Route::view('block-ui', 'bonus_ui.block_ui')->name('block_ui');
-// Route::view('rating', 'bonus_ui.rating')->name('rating');
-// Route::view('dropzone', 'bonus_ui.dropzone')->name('dropzone');
-// Route::view('tour', 'bonus_ui.tour')->name('tour');
-// Route::view('sweet-alert2', 'bonus_ui.sweet_alert2')->name('sweet_alert2');
-// Route::view('animation-modal', 'bonus_ui.modal_animated')->name('modal_animated');
-// Route::view('owl-carousel', 'bonus_ui.owl_carousel')->name('owl_carousel');
-// Route::view('ribbons', 'bonus_ui.ribbons')->name('ribbons');
- Route::view('pagination', 'bonus_ui.pagination')->name('pagination');
-// Route::view('scroll-spy', 'bonus_ui.scroll_spy')->name('scroll_spy');
- Route::view('breadcrumb', 'bonus_ui.breadcrumb')->name('breadcrumb');
-// Route::view('range-slider', 'bonus_ui.range_slider')->name('range_slider');
-// Route::view('ratios', 'bonus_ui.ratios')->name('ratios');
-// Route::view('image-cropper', 'bonus_ui.image_cropper')->name('image_cropper');
+Route::view('scrollable', 'bonus_ui.scrollable')->name('scrollable');
+Route::view('tree', 'bonus_ui.tree')->name('tree');
+Route::view('toasts', 'bonus_ui.toasts')->name('toasts');
+Route::view('block-ui', 'bonus_ui.block_ui')->name('block_ui');
+Route::view('rating', 'bonus_ui.rating')->name('rating');
+Route::view('dropzone', 'bonus_ui.dropzone')->name('dropzone');
+Route::view('tour', 'bonus_ui.tour')->name('tour');
+Route::view('sweet-alert2', 'bonus_ui.sweet_alert2')->name('sweet_alert2');
+Route::view('animation-modal', 'bonus_ui.modal_animated')->name('modal_animated');
+Route::view('owl-carousel', 'bonus_ui.owl_carousel')->name('owl_carousel');
+Route::view('ribbons', 'bonus_ui.ribbons')->name('ribbons');
+Route::view('pagination', 'bonus_ui.pagination')->name('pagination');
+Route::view('scroll-spy', 'bonus_ui.scroll_spy')->name('scroll_spy');
+Route::view('breadcrumb', 'bonus_ui.breadcrumb')->name('breadcrumb');
+Route::view('range-slider', 'bonus_ui.range_slider')->name('range_slider');
+Route::view('ratios', 'bonus_ui.ratios')->name('ratios');
+Route::view('image-cropper', 'bonus_ui.image_cropper')->name('image_cropper');
 Route::view('basic-card', 'bonus_ui.basic_card')->name('basic_card');
- Route::view('creative-card', 'bonus_ui.creative_card')->name('creative_card');
-// Route::view('draggable-card', 'bonus_ui.draggable_card')->name('draggable_card');
-// Route::view('timeline', 'bonus_ui.timeline')->name('timeline');
+Route::view('creative-card', 'bonus_ui.creative_card')->name('creative_card');
+Route::view('draggable-card', 'bonus_ui.draggable_card')->name('draggable_card');
+Route::view('timeline', 'bonus_ui.timeline')->name('timeline');
 
 //animation
 Route::view('animate', 'animations.animate')->name('animate');
-// Route::view('scroll-reveal', 'animations.scroll_reveal')->name('scroll_reveal');
-// Route::view('aos', 'animations.aos')->name('aos');
-// Route::view('tilt', 'animations.tilt')->name('tilt');
-// Route::view('wow', 'animations.wow')->name('wow');
-// Route::view('flash-icon', 'animations.flash_icon')->name('flash_icon');
+Route::view('scroll-reveal', 'animations.scroll_reveal')->name('scroll_reveal');
+Route::view('aos', 'animations.aos')->name('aos');
+Route::view('tilt', 'animations.tilt')->name('tilt');
+Route::view('wow', 'animations.wow')->name('wow');
+Route::view('flash-icon', 'animations.flash_icon')->name('flash_icon');
 
 //icons
 Route::view('flag-icon', 'icons.flag_icon')->name('flag_icon');
@@ -251,14 +252,14 @@ Route::view('buttons', 'buttons')->name('buttons');
 
 //charts
 Route::view('chart-apex', 'charts.chart_apex')->name('chart_apex');
-// Route::view('chart-google', 'charts.chart_google')->name('chart_google');
-// Route::view('chart-sparkline', 'charts.chart_sparkline')->name('chart_sparkline');
-// Route::view('chart-flot', 'charts.chart_flot')->name('chart_flot');
-// Route::view('chart-knob', 'charts.chart_knob')->name('chart_knob');
-// Route::view('chart-morris', 'charts.chart_morris')->name('chart_morris');
-// Route::view('chartjs', 'charts.chartjs')->name('chartjs');
-// Route::view('chartist', 'charts.chartist')->name('chartist');
-// Route::view('chart-peity', 'charts.chart_peity')->name('chart_peity');
+Route::view('chart-google', 'charts.chart_google')->name('chart_google');
+Route::view('chart-sparkline', 'charts.chart_sparkline')->name('chart_sparkline');
+Route::view('chart-flot', 'charts.chart_flot')->name('chart_flot');
+Route::view('chart-knob', 'charts.chart_knob')->name('chart_knob');
+Route::view('chart-morris', 'charts.chart_morris')->name('chart_morris');
+Route::view('chartjs', 'charts.chartjs')->name('chartjs');
+Route::view('chartist', 'charts.chartist')->name('chartist');
+Route::view('chart-peity', 'charts.chart_peity')->name('chart_peity');
 
 // landing page
 
@@ -271,9 +272,9 @@ Route::view('internationalization', 'internationalization')->name('international
 // Starter kit
 
 //error_page
-// Route::view('error-403', 'error_pages.error_403')->name('error_403');
+Route::view('error-403', 'error_pages.error_403')->name('error_403');
 Route::view('error-404', 'error_pages.error_404')->name('error_404');
-// Route::view('error-500', 'error_pages.error_500')->name('error_500');
+Route::view('error-500', 'error_pages.error_500')->name('error_500');
 
 //authentication
 Route::view('login', 'authentication.login')->name('login');
@@ -288,7 +289,7 @@ Route::view('sign-up', 'authentication.sign_up')->name('sign_up');
 // Route::view('sign-up-wizard', 'authentication.sign_up_wizard')->name('sign_up_wizard');
 // Route::view('account-restricted', 'authentication.account_restricted')->name('account_restricted');
 // Route::view('unlock', 'authentication.unlock')->name('unlock');
-Route::view('forget-password', 'authentication.forget_password')->name('forget_password');
+ Route::view('forget-password', 'authentication.forget_password')->name('forget_password');
 Route::view('reset-password', 'authentication.reset_password')->name('reset_password');
 // Route::view('maintenance', 'authentication.maintenance')->name('maintenance');
 
@@ -298,7 +299,7 @@ Route::view('reset-password', 'authentication.reset_password')->name('reset_pass
 // Route::view('comingsoon-bg-img', 'coming_soon.comingsoon_bg_img')->name('comingsoon_bg_img');
 
 //email_templates
-// Route::view('basic-template', 'email_templates.basic_template')->name('basic_template');
+Route::view('basic-template', 'email_templates.basic_template')->name('basic_template');
 // Route::view('email-header', 'email_templates.email_header')->name('email_header');
 // Route::view('template-email', 'email_templates.template_email')->name('template_email');
 // Route::view('template-email-2', 'email_templates.template_email_2')->name('template_email_2');
@@ -341,13 +342,13 @@ Route::view('reset-password', 'authentication.reset_password')->name('reset_pass
 // Route::view('job-companies', 'jobs.job_companies')->name('job_companies');
 // Route::view('job-apply', 'jobs.job_apply')->name('job_apply');
 
-// //courses
+//courses
 // Route::view('course-list', 'courses.course_list')->name('course_list');
 // Route::view('course-details', 'courses.course_details')->name('course_details');
 
 //maps
-   // Route::view('map-js', 'maps.map_js')->name('map_js');
-    // Route::view('vector-map', 'maps.vector_map')->name('vector_map');
+// Route::view('map-js', 'maps.map_js')->name('map_js');
+// Route::view('vector-map', 'maps.vector_map')->name('vector_map');
 
 //editors
 // Route::view('quill-editor', 'editors.quill_editor')->name('quill_editor');
@@ -361,13 +362,9 @@ Route::view('reset-password', 'authentication.reset_password')->name('reset_pass
 // Route::view('support-ticket', 'support_ticket')->name('support_ticket');
 });
 
+
 // Refresh Data
 Route::get('/refresh-data', function () {
     Artisan::call('cuba:refresh');
     return back();
 });
-
-
-
-
-

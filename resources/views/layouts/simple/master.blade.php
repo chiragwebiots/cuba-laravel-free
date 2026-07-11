@@ -42,6 +42,9 @@
 
     <!-- tap on top starts-->
     <div class="tap-top"><i data-feather="chevrons-up"></i></div>
+    <a href="#" class="btn btn-primary shadow" style="position: fixed; bottom: 30px; right: 80px; z-index: 5; border-radius: 30px; display: flex; align-items: center; justify-content: center; height: 40px; padding: 0 20px; font-weight: 500;">
+        Buy Now
+    </a>
     <!-- tap on tap ends-->
 
     <!-- page-wrapper Start-->
