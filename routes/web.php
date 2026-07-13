@@ -203,7 +203,7 @@ Route::view('popover', 'ui_kits.popover')->name('popover');
 Route::view('tooltip', 'ui_kits.tooltip')->name('tooltip');
 Route::view('dropdown', 'ui_kits.dropdown')->name('dropdown');
 Route::view('according', 'ui_kits.according')->name('according');
-// Route::view('tabs', 'ui_kits.tabs')->name('tabs');
+ Route::view('tabs', 'ui_kits.tabs')->name('tabs');
 // Route::view('offcanvas', 'ui_kits.offcanvas')->name('offcanvas');
 // Route::view('navigate-links', 'ui_kits.navigate_links')->name('navigate_links');
 Route::view('list', 'ui_kits.list')->name('list');
