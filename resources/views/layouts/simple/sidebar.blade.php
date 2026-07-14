@@ -149,7 +149,8 @@
                             <li><a href="{{ route('admin.popover') }}">Popover</a></li>
                             <li><a href="{{ route('admin.tooltip') }}">Tooltip</a></li>
                             <li><a href="{{ route('admin.dropdown') }}">Dropdown</a></li>
-                            <li><a href="{{ route('admin.according') }}">Accordion</a></li>
+                            <li><a href="{{ route('admin.according') }}">Accordion</a></li> 
+                             <li><a href="{{ route('admin.tabs') }}">Tabs</a></li>
                             <li><a href="{{ route('admin.list') }}">Lists</a></li>
                         </ul>
                     </li>

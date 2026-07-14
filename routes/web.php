@@ -110,10 +110,10 @@ Route::view('footer-dark', 'page_layouts.footer_dark')->name('footer_dark');
 //  Route::view('wish-list', 'ecommerce.wish_list')->name('wish_list');
 //  Route::view('checkout', 'ecommerce.checkout')->name('checkout');
 //  Route::view('manage-review', 'ecommerce.manage_review')->name('manage_review');
-//  Route::view('settings', 'ecommerce.settings')->name('settings');
+  Route::view('settings', 'ecommerce.settings')->name('settings');
 
 //mail box
-// Route::view('mail-box', 'mail_box')->name('mail_box');
+Route::view('mail-box', 'mail_box')->name('mail_box');
 
 //chat
 // Route::view('chat-private', 'chats.chat_private')->name('chat_private');
@@ -139,7 +139,7 @@ Route::view('bookmark', 'bookmark')->name('bookmark');
 // Route::view('contacts', 'contacts')->name('contacts');
 
 //tasks
-    // Route::view('task', 'task')->name('task');
+Route::view('task', 'task')->name('task');
 
 //calendar
 // Route::view('calendar-basic', 'calendar_basic')->name('calendar_basic');
