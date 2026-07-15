@@ -214,22 +214,22 @@
                             <li><a href="#">Group Chat</a></li>
                         </ul>
                     </li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
+                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
                             class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-user') }}"></use>
                             </svg><svg class="fill-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#fill-user') }}"></use>
                             </svg><span>Users</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="#">User Profile</a></li>
-                            <li><a href="#">Add User</a></li>
-                            <li><label class="badge badge-light-success">New</label><a href="#">User
+                            <li><a href="{{ route('admin.user_profile') }}">User Profile</a></li>
+                            <li><a href="{{ route('admin.add_user') }}">Add User</a></li>
+                            <li><label class="badge badge-light-success">New</label><a href="{{ route('admin.user_list') }}">User
                                     List</a></li>
-                            <li><a href="#">User Cards</a></li>
+                            <li><a href="{{ route('admin.user_cards') }}">User Cards</a></li>
                             <li><label class="badge badge-light-success">New</label><a
-                                    href="#">Roles & Permission</a></li>
+                                    href="{{ route('admin.role_permission') }}">Roles & Permission</a></li>
                         </ul>
-                    </li> -->
+                    </li>
                     <li class="sidebar-list"><label class="badge badge-light-success">New</label><i
                             class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title"
                             href="javascript:void(0)"><svg class="stroke-icon">
@@ -238,10 +238,10 @@
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#fill-reports') }}"></use>
                             </svg><span>Reports</span></a>
                         <ul class="sidebar-submenu">
-                            <li><a href="{{ route('admin.products_reports') }}">Products</a></li>
-                            <li><a href="{{ route('admin.sales_reports') }}">Sales</a></li>
-                            <li><a href="{{ route('admin.sales_return') }}">Sales Return</a></li>
-                            <li><a href="{{ route('admin.customer_order') }}">Customer Order</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Sales</a></li>
+                            <li><a href="#">Sales Return</a></li>
+                            <li><a href="#">Customer Order</a></li>
                         </ul>
                     </li>
                     <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
