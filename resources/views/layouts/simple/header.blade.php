@@ -247,7 +247,7 @@
                                 <li><a href="{{ route('admin.mail_box') }}"><i data-feather="mail"></i><span>Inbox</span></a></li>
                                 <li><a href="{{route('admin.task')}}"><i data-feather="file-text"></i><span>Taskboard</span></a>
                                 </li>
-                                <li><a href="{{route('admin.add_user')}}"><i data-feather="settings"></i><span>Settings</span></a>
+                               <li><a href="{{ route('admin.add_user') }}"><i data-feather="settings"></i><span>Settings</span></a>
                                 </li>
                                 <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i data-feather="log-in"> </i><span>Log out</span></a></li>
                                 <form action="{{route('logout')}}" method="POST" class="d-none" id="logout-form">
