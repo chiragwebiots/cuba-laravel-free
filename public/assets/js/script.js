@@ -161,7 +161,7 @@
   });
 
   $(window).on("scroll", function () {
-    if ($(this).scrollTop() > 600) {
+    if ($(this).scrollTop() > 100) {
       $(".tap-top").fadeIn();
     } else {
       $(".tap-top").fadeOut();
