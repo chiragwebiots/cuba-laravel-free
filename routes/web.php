@@ -80,22 +80,22 @@ Route::view('footer-dark', 'page_layouts.footer_dark')->name('footer_dark');
 // Route::view('footer-fixed', 'page_layouts.footer_fixed')->name('footer_fixed');
 
 //projects
-// Route::view('project-details', 'projects.details_project')->name('details_project');
-// Route::view('project-list', 'projects.list_project')->name('list_project');
-// Route::view('project-create', 'projects.create_project')->name('create_project');
+ Route::view('project-details', 'projects.details_project')->name('details_project');
+ Route::view('project-list', 'projects.list_project')->name('list_project');
+ Route::view('project-create', 'projects.create_project')->name('create_project');
 
  //file manager
-//  Route::view('file-manager', 'file_manager')->name('file_manager');
+ Route::view('file-manager', 'file_manager')->name('file_manager');
 
  //kanban board
-//  Route::view('kanban', 'kanban')->name('kanban');
+  Route::view('kanban', 'kanban')->name('kanban');
 
  //ecommerce
-//  Route::view('add-products', 'ecommerce.products.add_products')->name('add_products');
-//  Route::view('products-grid', 'ecommerce.products.products_grid')->name('products_grid');
-//  Route::view('list-products', 'ecommerce.products.list_products')->name('list_products');
-//  Route::view('products-details', 'ecommerce.products.products_details')->name('products_details');
-//  Route::view('categories-pages', 'ecommerce.category_page')->name('category_page');
+ Route::view('add-products', 'ecommerce.products.add_products')->name('add_products');
+ Route::view('products-grid', 'ecommerce.products.products_grid')->name('products_grid');
+ Route::view('list-products', 'ecommerce.products.list_products')->name('list_products');
+  Route::view('products-details', 'ecommerce.products.products_details')->name('products_details');
+ Route::view('categories-pages', 'ecommerce.category_page')->name('category_page');
 //  Route::view('seller-list', 'ecommerce.seller.seller_list')->name('seller_list');
 //  Route::view('seller-details', 'ecommerce.seller.seller_details')->name('seller_details');
 //  Route::view('order-history', 'ecommerce.order.order_history')->name('order_history');
@@ -121,7 +121,7 @@ Route::view('mail-box', 'mail_box')->name('mail_box');
 
 //users
 // Route::view('profile', 'users.user_profile')->name('user_profile');
-// Route::view('add_user', 'users.add_user')->name('add_user');
+ Route::view('add_user', 'users.add_user')->name('add_user');
 // Route::view('list-users', 'users.user_list')->name('user_list');
 // Route::view('cards', 'users.user_cards')->name('user_cards');
 // Route::view('permissions-roles', 'users.role_permission')->name('role_permission');
