@@ -183,9 +183,9 @@
                                         <h6 class="mb-0">Order Total : <span class="f-right">$1000.00</span></h6>
                                     </li>
                                     <li class="text-center"><a class="d-block view-cart f-w-700 btn btn-primary w-100"
-                                            href="{{ route('admin.cart') }}">View Cart</a><a
+                                            href="">View Cart</a><a
                                             class="btn btn-primary view-checkout btn btn-primary w-100 f-w-700"
-                                            href="{{ route('admin.checkout') }}">Checkout</a></li>
+                                            href="#">Checkout</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -245,9 +245,9 @@
                             <ul class="profile-dropdown onhover-show-div">
                                 <li><a href="{{ route('admin.user.edit-profile',auth()->user()->role->name) }}"><i data-feather="user"></i><span>My Profile </span></a></li>
                                 <li><a href="{{ route('admin.mail_box') }}"><i data-feather="mail"></i><span>Inbox</span></a></li>
-                                <li><a href="{{ route('admin.task') }}"><i data-feather="file-text"></i><span>Taskboard</span></a>
+                                <li><a href="{{route('admin.task')}}"><i data-feather="file-text"></i><span>Taskboard</span></a>
                                 </li>
-                                <li><a href="{{ route('admin.add_user') }}"><i data-feather="settings"></i><span>Settings</span></a>
+                               <li><a href="{{ route('admin.add_user') }}"><i data-feather="settings"></i><span>Settings</span></a>
                                 </li>
                                 <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i data-feather="log-in"> </i><span>Log out</span></a></li>
                                 <form action="{{route('logout')}}" method="POST" class="d-none" id="logout-form">

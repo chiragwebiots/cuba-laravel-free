@@ -1796,7 +1796,7 @@
                                             <h4 class="pt-3 text-center">Already leaving??</h4>
                                             <p class="text-center">Are you sure want to logout this dashboard?</p><span
                                                 class="d-block text-center mb-4"> Not a member?<a class="ms-1"
-                                                    href="{{ route('admin.ecommerce_dashboard') }}">Register</a></span><button
+                                                    href="#">Register</a></span><button
                                                 class="btn btn-dark d-flex m-auto" type="button"
                                                 data-bs-dismiss="modal">Yes, Log out</button>
                                         </div>
@@ -1835,7 +1835,7 @@
            &lt;li&gt; &lt;img src="{{ asset('assets/images/gif/logout.gif') }}" alt="logout"&gt;&lt;/li&gt;
          &lt;/ul&gt;
          &lt;h4 class="pt-3 text-center"&gt;Already leaving??&lt;/h4&gt;
-         &lt;p class="text-center"&gt;Are you sure want to logout this dashboard?&lt;/p&gt;&lt;span class="d-block text-center mb-4"&gt; Not a member?&lt;a class="ms-1" href="{{ route('admin.ecommerce_dashboard') }}"&gt;Register&lt;/a&gt;&lt;/span&gt;
+         &lt;p class="text-center"&gt;Are you sure want to logout this dashboard?&lt;/p&gt;&lt;span class="d-block text-center mb-4"&gt; Not a member?&lt;a class="ms-1" href="#"&gt;Register&lt;/a&gt;&lt;/span&gt;
          &lt;button class="btn btn-dark d-flex m-auto" type="button" data-bs-dismiss="modal"&gt;Yes, Log out&lt;/button&gt;
        &lt;/div&gt;
      &lt;/div&gt;
@@ -2291,7 +2291,7 @@
                                                                 </div>
                                                                 <div class="social-details">
                                                                     <h5 class="mb-1"><a
-                                                                            href="{{ route('admin.social_app') }}">Brooklyn Simmons</a>
+                                                                            href="#>Brooklyn Simmons</a>
                                                                     </h5><span class="f-light">@brookly.simmons</span>
                                                                     <ul class="social-follow">
                                                                         <li>
@@ -2400,7 +2400,7 @@
                                                                     <div class="balance-img"><img
                                                                             src="{{ asset('assets/images/dashboard-4/user.png') }}"
                                                                             alt="user vector"><a class="edit-icon"
-                                                                            href="{{ route('admin.user_profile') }}"><svg>
+                                                                            href="#"><svg>
                                                                                 <use
                                                                                     href="{{ asset('assets/svg/icon-sprite.svg#pencil') }}">
                                                                                 </use>
@@ -2483,7 +2483,7 @@
                      &lt;/div&gt;
                    &lt;/div&gt;
                    &lt;div class="social-details"&gt;
-                     &lt;h5 class="mb-1"&gt;&lt;a href="{{ route('admin.social_app') }}"&gt;Brooklyn Simmons&lt;/a&gt;&lt;/h5&gt;&lt;span class="f-light"&gt;@brookly.simmons&lt;/span&gt;
+                     &lt;h5 class="mb-1"&gt;&lt;a href="#&gt;Brooklyn Simmons&lt;/a&gt;&lt;/h5&gt;&lt;span class="f-light"&gt;@brookly.simmons&lt;/span&gt;
                      &lt;ul class="social-follow"&gt;
                        &lt;li&gt;
                          &lt;h5 class="mb-0"&gt;1,908&lt;/h5&gt;&lt;span class="f-light"&gt;Posts&lt;/span&gt;
@@ -2576,7 +2576,7 @@
                &lt;div class="card balance-box mb-0"&gt;
                  &lt;div class="card-body"&gt;
                    &lt;div class="balance-profile"&gt;
-                     &lt;div class="balance-img"&gt;&lt;img src="{{ asset('assets/images/dashboard-4/user.png') }}" alt="user vector"&gt;&lt;a class="edit-icon" href="{{ route('admin.user_profile') }}"&gt;
+                     &lt;div class="balance-img"&gt;&lt;img src="{{ asset('assets/images/dashboard-4/user.png') }}" alt="user vector"&gt;&lt;a class="edit-icon" href="#"&gt;
                          &lt;svg&gt;
                            &lt;use href="{{ asset('assets/svg/icon-sprite.svg#pencil') }}"&gt;&lt;/use&gt;
                          &lt;/svg&gt;&lt;/a&gt;&lt;/div&gt;&lt;span class="f-light d-block"&gt;Your Balance &lt;/span&gt;
