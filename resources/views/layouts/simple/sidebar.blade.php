@@ -38,23 +38,6 @@
                             </svg><span class="lan-3">Dashboard </span></a>
                         <ul class="sidebar-submenu">
                             <li><a class="lan-4" href="{{ route('admin.default_dashboard') }}">Default</a></li>
-                            <!-- <li><a class="lan-5" href="#">Ecommerce</a></li>
-                            <li><a href="#">Online course</a></li>
-                            <li><a href="#">Crypto</a></li>
-                            <li><a href="#">Social</a></li>
-                            <li><a href="#">NFT</a></li>
-                            <li> <a href="#">School management</a></li>
-                            <li> <a href="#">POS</a></li>
-                            <li><label class="badge badge-light-success">New</label><a href="#">CRM</a>
-                            </li>
-                            <li><label class="badge badge-light-success">New</label><a
-                                    href="#">Analytics</a></li>
-                            <li><label class="badge badge-light-success">New</label><a href="#">HR</a>
-                            </li>
-                            <li><label class="badge badge-light-success">New</label><a
-                                    href="#">Projects</a></li>
-                            <li><label class="badge badge-light-success">New</label><a
-                                    href="#">Logistics</a></li> -->
                         </ul>
                     </li>
                     <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title"
@@ -84,17 +67,6 @@
                             @endcan
                         </ul>
                     </li>
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title"
-                            href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-widget') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-widget') }}"></use>
-                            </svg><span class="lan-6">Widgets</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="#">General</a></li>
-                            <li><a href="#">Chart</a></li>
-                        </ul>
-                    </li> -->
                     <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title"
                             href="javascript:void(0)"><svg class="stroke-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-layout') }}"></use>
@@ -105,194 +77,9 @@
                             <li><a href="{{ route('admin.box_layout') }}">Boxed</a></li>
                             <li><a href="{{ route('admin.rtl_layout') }}">RTL</a></li>
                             <li><a href="{{ route('admin.dark_layout') }}">Dark Layout</a></li>
-                            <!-- <li><a href="#">Hide Nav Scroll</a></li> -->
-                            <!-- <li><a href="#">Footer Light</a></li> -->
                             <li><a href="{{ route('admin.footer_dark') }}">Footer Dark</a></li>
-                            <!-- <li><a href="#">Footer Fixed</a></li> -->
                         </ul>
                     </li> 
-
-                    <!-- <li class="sidebar-main-title">
-                        <div>
-                            <h6 class="lan-8">Applications</h6>
-                        </div>
-                    </li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"> </i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-project') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-project') }}"></use>
-                            </svg><span>Projects </span></a>
-                        <ul class="sidebar-submenu">
-                            <li><label class="badge badge-light-success">New</label><a
-                                    href="#">Project Details</a></li>
-                            <li><a href="#">Project List</a></li>
-                            <li><a href="#">Create new</a></li>
-                        </ul>
-                    </li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a 
-                            class="sidebar-link sidebar-title link-nav" href="#"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-file') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-file') }}"></use>
-                            </svg><span>File manager</span></a></li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"> </i><a
-                            class="sidebar-link sidebar-title link-nav" href="#"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-board') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-board') }}"></use>
-                            </svg><span>kanban Board</span></a></li> 
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-ecommerce') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-ecommerce') }}"></use>
-                            </svg><span>Ecommerce</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a class="submenu-title" href="javascript:void(0)">Products<span class="sub-arrow"><i
-                                            class="fa-solid fa-angle-right"></i></span></a>
-                                <ul class="sidebar-submenu">
-                                    <li><a href="#">Add Product</a></li>
-                                    <li><a href="#">Products Grid</a></li>
-                                    <li><a href="#">Products List</a></li>
-                                    <li><a href="#">Product Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Category</a></li>
-                            <li><label class="badge badge-light-success">New</label><a class="submenu-title"
-                                    href="javascript:void(0)">Seller<span class="sub-arrow"><i
-                                            class="fa-solid fa-angle-right"></i></span></a>
-                                <ul class="sidebar-submenu">
-                                    <li><a href="#">Seller List</a></li>
-                                    <li><a href="#">Seller Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="submenu-title" href="javascript:void(0)">Orders<span class="sub-arrow"><i
-                                            class="fa-solid fa-angle-right"></i></span></a>
-                                <ul class="sidebar-submenu">
-                                    <li><a href="#">Order History</a></li>
-                                    <li><label class="badge badge-light-success">New</label><a
-                                            href="#">Order Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="submenu-title" href="javascript:void(0)">Invoices<span class="sub-arrow"><i
-                                            class="fa-solid fa-angle-right"></i></span></a>
-                                <ul class="sidebar-submenu">
-                                    <li><a href="#">Invoice-1</a></li>
-                                    <li><a href="#">Invoice-2</a></li>
-                                    <li><a href="#">Invoice-3</a></li>
-                                    <li><a href="#">Invoice-4</a></li>
-                                    <li><a href="#">Invoice-5</a></li>
-                                    <li><a href="#">Invoice-6</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Cart</a></li>
-                            <li><a href="#">Wishlist</a></li>
-                            <li><a href="#">Checkout</a></li>
-                            <li><label class="badge badge-light-success">New</label><a
-                                    href="#">Manage Review</a></li>
-                            <li><label class="badge badge-light-success">New</label><a
-                                    href="{{ route('admin.settings') }}">Settings</a></li>
-                        </ul>
-                    </li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="#"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-email') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-email') }}"></use>
-                            </svg><span>Mail Box</span></a></li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-chat') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-chat') }}"></use>
-                            </svg><span>Chat</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="{{ route('admin.chat_private') }}">Private Chat</a></li>
-                            <li><a href="{{ route('admin.chat_group') }}">Group Chat</a></li>
-                        </ul>
-                    </li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-user') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-user') }}"></use>
-                            </svg><span>Users</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="{{ route('admin.user_profile') }}">User Profile</a></li>
-                            <li><a href="{{ route('admin.add_user') }}">Add User</a></li>
-                            <li><label class="badge badge-light-success">New</label><a href="{{ route('admin.user_list') }}">User
-                                    List</a></li>
-                            <li><a href="{{ route('admin.user_cards') }}">User Cards</a></li>
-                            <li><label class="badge badge-light-success">New</label><a
-                                    href="{{ route('admin.role_permission') }}">Roles & Permission</a></li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-list"><label class="badge badge-light-success">New</label><i
-                            class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title"
-                            href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-reports') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-reports') }}"></use>
-                            </svg><span>Reports</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="{{ route('admin.products_reports') }}">Products</a></li>
-                            <li><a href="{{ route('admin.sales_reports') }}">Sales</a></li>
-                            <li><a href="{{ route('admin.sales_return') }}">Sales Return</a></li>
-                            <li><a href="{{ route('admin.customer_order') }}">Customer Order</a></li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="{{ route('admin.bookmark') }}"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-bookmark') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-bookmark') }}"> </use>
-                            </svg><span>Bookmarks</span></a></li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="{{ route('admin.contacts') }}"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-contact') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-contact') }}"> </use>
-                            </svg><span>Contacts</span></a></li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="{{ route('admin.task') }}"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-task') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-task') }}"> </use>
-                            </svg><span>Tasks</span></a></li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="{{ route('admin.calendar_basic') }}"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-calendar') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-calender') }}"></use>
-                            </svg><span>Calendar</span></a></li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="{{ route('admin.social_app') }}"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-social') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-social') }}"> </use>
-                            </svg><span>Social App</span></a></li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="{{ route('admin.to_do') }}"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-to-do') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-to-do') }}"> </use>
-                            </svg><span>To-Do</span></a></li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="{{ route('admin.search') }}"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-search') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-search') }}"> </use>
-                            </svg><span>Search Result</span></a></li>
-                    
-                     -->
                     
                     <li class="sidebar-main-title">
                         <div>
@@ -328,14 +115,6 @@
                                     <li><a href="{{ route('admin.clipboard') }}">Clipboard</a></li>
                                 </ul>
                             </li>
-                            <!-- <li><a class="submenu-title" href="javascript:void(0)">Form layout<span class="sub-arrow"><i
-                                            class="fa-solid fa-angle-right"></i></span></a>
-                                <ul class="sidebar-submenu">
-                                    <li><a href="#">Form Wizard 1</a></li>
-                                    <li><a href="#">Form Wizard 2</a></li>
-                                    <li><a href="#">Two Factor</a></li>
-                                </ul>
-                            </li> -->
                         </ul>
                     </li>
                     <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
@@ -453,14 +232,6 @@
                             </svg><svg class="fill-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#fill-sample-page') }}"></use>
                             </svg><span>Sample page</span></a></li>
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="#"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-internationalization') }}">
-                                </use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-internationalization') }}"></use>
-                            </svg><span>Internationalization</span></a></li> -->
                     <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
                             class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
                                 <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-error') }}"></use>
@@ -481,183 +252,12 @@
                             </svg><span>Authentication</span></a>
                         <ul class="sidebar-submenu">
                             <li><a href="{{ route('login') }}" target="_blank">Login Simple</a></li>
-                            <!-- <li><a href="#" target="_blank">Login with bg image</a></li>
-                            <li><a href="#" target="_blank">Login with image two </a></li>
-                            <li><a href="#" target="_blank">Login With Image Three</a></li>
-                            <li><a href="#" target="_blank">Login with tooltip</a>
-                            </li> -->
-                            <!-- <li><a href="#" target="_blank">Login with
-                                    sweetalert</a></li> --->
                              <li><a href="{{ route('admin.sign_up') }}" target="_blank">Register Simple</a></li>
-                           <!-- <li><a href="#" target="_blank">Register with Bg Image
-                                </a></li>
-                            <li><a href="#" target="_blank">Register with image
-                                    two</a></li> -->
-                            <!-- <li><a href="#" target="_blank">Register wizard</a></li>
-                            <li><a href="#" target="_blank">Account Restricted</a>
-                            </li>
-                            <li><a href="#">Unlock User</a></li> -->
-                            <li><a href="{{ route('admin.forget_password') }}">Forgot Password</a></li>
-                            <li><a href="{{ route('admin.reset_password') }}">Reset Password</a></li>
-                            <!-- <li><a href="#">Maintenance</a></li> -->
+                             <li><a href="{{ route('admin.forget_password') }}">Forgot Password</a></li>
+                             <li><a href="{{ route('admin.reset_password') }}">Reset Password</a></li>
                         </ul>
                     </li>
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-coming-soon') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-coming-soon') }}"></use>
-                            </svg><span>Coming Soon</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="#">Coming Simple</a></li>
-                            <li><a href="#">Coming with Bg video</a></li>
-                            <li><a href="#">Coming with Bg Image</a></li>
-                        </ul>
-                    </li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-email-temp') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-email-temp') }}"></use>
-                            </svg><span>Email templates</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="#">Basic Email</a></li>  
-                            <li><a href="=#">Basic With Header</a></li>
-                            <li><a href="=# ">Ecomerce Template</a></li>
-                            <li><a href="=# ">Email Template 2</a></li>
-                            <li><a href="=#  ">Ecommerce Email</a></li>
-                            <li><a href="=#  ">Order Success</a></li>
-                        </ul>
-                    </li> -->
-                    <!-- <li class="sidebar-list"><label class="badge badge-light-success">New</label><i
-                            class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title link-nav"
-                            href="#"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-api') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-api') }}"></use>
-                            </svg><span>Manage API</span></a></li> -->
-                    <!-- <li class="sidebar-list"><label class="badge badge-light-success">New</label><i
-                            class="fa-solid fa-thumbtack"></i><a class="sidebar-link sidebar-title link-nav"
-                            href="#"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-sitemap') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-sitemap') }}"></use>
-                            </svg><span>Site Map</span></a></li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="#"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-price') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-price') }}"></use>
-                            </svg><span>Pricing </span></a></li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="#"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-faq') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-faq') }}"></use>
-                            </svg><span>FAQ</span></a></li> -->
-                    <!-- <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="#"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-subscribe') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-subscribe') }}"></use>
-                            </svg><span>Subscribed User</span></a></li> -->
-                    <!-- <li class="sidebar-main-title">
-                        <div>
-                            <h6>Miscellaneous</h6>
-                        </div>
-                    </li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-gallery') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-gallery') }}"></use>
-                            </svg><span>Gallery</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="#">Gallery Grid</a></li>
-                            <li><a href="#">Gallery Grid Desc</a></li>
-                            <li><a href="#">Masonry Gallery</a></li>
-                            <li><a href="#">Masonry with Desc</a></li>
-                            <li><a href="#">Hover Effects</a></li>
-                            <li>
-                            <label class="badge badge-light-success">New</label><a href="{{ route('admin.gallery_placeholder') }}">Gallery Placeholder</a></li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-blog') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-blog') }}"></use>
-                            </svg><span>Blog</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="{{ route('admin.blogs') }}">Blog</a></li>
-                            <li><a href="{{ route('admin.blog_details') }}">Blog Details</a></li>
-                            <li><a href="{{ route('admin.add_blog') }}">Add Blog</a></li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-job-search') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-job-search') }}"></use>
-                            </svg><span>Jobs</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="{{ route('admin.job_cards_view') }}">Cards view</a></li>
-                            <li><a href="{{ route('admin.job_list_view') }}">List View</a></li>
-                            <li><a href="{{ route('admin.job_details') }}">Job Details</a></li>
-                            <li><a href="{{ route('admin.job_candidates') }}">Candidates</a></li>
-                            <li><a href="{{ route('admin.job_companies') }}">Companies</a></li>
-                            <li><a href="{{ route('admin.job_apply') }}">Apply</a></li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-learning') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-learning') }}"></use>
-                            </svg><span>Courses</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="{{ route('admin.course_list') }}">Course List</a></li>
-                            <li><a href="{{ route('admin.course_details') }}">Course Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-maps') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-maps') }}"></use>
-                            </svg><span>Maps</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="{{ route('admin.map_js') }}">Maps JS</a></li>
-                            <li><a href="{{ route('admin.vector_map') }}">Vector Maps</a></li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title" href="javascript:void(0)"><svg class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-editors') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-editors') }}"></use>
-                            </svg><span>Editors</span></a>
-                        <ul class="sidebar-submenu">
-                            <li><a href="{{ route('admin.quill_editor') }}">Quill Editor</a></li>
-                            <li><a href="{{ route('admin.ckeditor') }}">CK Editor</a></li>
-                            <li><a href="{{ route('admin.ace_code_editor') }}">ACE Code Editor </a></li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="{{ route('admin.knowledgebase') }}"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-knowledgebase') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-knowledgebase') }}"></use>
-                            </svg><span>Knowledgebase</span></a></li>
-                    <li class="sidebar-list"><i class="fa-solid fa-thumbtack"></i><a
-                            class="sidebar-link sidebar-title link-nav" href="{{ route('admin.support_ticket') }}"><svg
-                                class="stroke-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#stroke-support-tickets') }}"></use>
-                            </svg><svg class="fill-icon">
-                                <use href="{{ asset('assets/svg/icon-sprite.svg#fill-support-tickets') }}"></use>
-                            </svg><span>Support Ticket</span></a></li> -->
+                 
                 </ul>
             </div>
             <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
